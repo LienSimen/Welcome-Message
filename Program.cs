@@ -30,6 +30,7 @@
             if (string.IsNullOrEmpty(userLanguage))
             {
                 Console.WriteLine("Please pick a language");
+                return;
             }
             else
             {
